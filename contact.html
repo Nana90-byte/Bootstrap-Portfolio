@@ -13,82 +13,88 @@
     <title>Hello, world!</title>
 </head>
 
-<body style="background-image: url(sakura.png)"> 
+<body style="background-image: url(sakura.png)">
 
 
-<div class="container-fluid">
-    <nav style="height: 80px" class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="row justify-content-around">
-            <span class="text-white">
-                <h1 style="background-color: #4aaaa5; width: 300px; margin-left: 160px; height: 80px;
-                line-height: 80px; text-align: center;">Mariana Rosario</h1>
-            </span>
-        </div>
-        
-        <ul class="navbar-nav ml-auto" stlye="font-family: Arial, Helvetica, sans-serif">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">|</a>
-             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">|</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+    <div class="container-fluid">
+        <div class="row" style="background-color: white">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
 
-        </ul>
-        
+                    <div class="col-xs-12 col-sm-6 col-md-6 justify-content-center">
+                        <span class="text-white navbar-brand">
+                            <h1 style="background-color: #4aaaa5; width: 300px; height: 80px;
+                                        line-height: 80px; font-family: Georgia, 'Times New Roman', Times, serif">
+                                Mariana
+                                Rosario</h1>
+                        </span>
+                    </div>
+                    <div class=" col-xs-12 col-sm-6 col-md-6 navbar nav justify-content-center"
+                        stlye="font-family: Georgia, 'Times New Roman', Times, serif">
 
-    </nav>
-</div>
+                        <a class="nav-link nav-item col-xs-3" href="index.html">About</a>
 
-    <div class="container-fluid"
-        style="background-color:#ffffff; border-color: #dddddd; width: 960px; border:30px; padding: 50px; margin: 100px; margin-top: 50px; margin-left: 160px; position: relative; top: 75px;">
-        <div class="row">
-            <div class="col-md-12" style="color: #4aaaa5">
-                <h1>Contact</h1>
-                <hr>
+                        <span>|</span>
+
+                        <a class="nav-link nav-item col-xs-3" href="portfolio.html">Portfolio</a>
+
+                        <span>|</span>
+
+                        <a class="nav-link nav-item col-xs-3" href="contact.html">Contact</a>
+                    </div>
+
+                </nav>
             </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <form stlye="font-family: Arial, Helvetica, sans-serif">
-                        <div class="form-group" class="row">
-                            <div class="col-md-12">
-                                <label for="formGroupExampleInput">Name:</label>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                <input type="text" class="form-control-sm" id="formGroupExampleInput">
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="card col-xs-12" style="width: 960px; margin-top: 40px; margin-bottom: 100px">
+            <div class="card-body col-md-12">
+                <div class="col-md-12" style="color: #4aaaa5">
+                    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif">Contact</h1>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <form stlye="font-family: Arial, Helvetica, sans-serif">
+
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <label for="formGroupExampleInput">Name:</label>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input type="text" style="width: 500px" id="formGroupExampleInput">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                            <div class="form-group" class="row">
+                            <div class="form-group row">
                                 <div class="col-md-12">
                                     <label for="formGroupExampleInput2">Email:</label>
-                                    <input type="text" class="form-control-sm" id="formGroupExampleInput2">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input type="text" style="width: 500px" id="formGroupExampleInput2">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+
                             <div class="form-group" class="row">
                                 <div class="col-md-6">
                                     <label for="exampleFormControlTextarea1">Message:</label>
                                 </div>
-                            
-                                    <div class="row">
-                                        <div class= "col-md-12">
-                                    <textarea class="form-control" style="height: 100px"
-                                        id="exampleFormControlTextarea1"></textarea>
-                                        </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" style="height: 100px"
+                                            id="exampleFormControlTextarea1"></textarea>
                                     </div>
+                                </div>
                             </div>
-                                
-                            
+
+
                             <div class="row">
                                 <div class="col-md-12">
                                     <input class="btn btn-primary ml-3 " type="submit" value="Submit"
@@ -96,27 +102,28 @@
                                 </div>
                             </div>
 
-                    </form>
+                        </form>
+
+                    </div>
 
                 </div>
-                
             </div>
         </div>
     </div>
     <div class="row">
-            <div class="col-md-12">
+        <div class="col-md-12">
             <footer class="footer mt-auto py-3 pb-1 pt-1" style="background-color: #777777; border-top-style: solid; 
                 border-width: 10px; border-color: #4aaaa5">
-                
+
                 <div class="container">
-                      <span class="text-muted">Place sticky footer content here.</span>
+                    <span class="text-muted">Place sticky footer content here.</span>
                 </div>
-            </div>
-            </footer>
+        </div>
+        </footer>
     </div>
-    
-   
-    
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -130,4 +137,5 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
